@@ -11,7 +11,8 @@ Code for TMI 2020 "Hi-Net: Hybrid-fusion Network for Multi-modal MR Image Synthe
 Usage
 
 1. The original implementation of Hi-Net is Pytorch. The code has been tested in Mac and Linux.
-2. To run the code, you should first install dependencies. 
+2. To run the code, you should first install dependencies:
+
    pip install fire
         
 3. Setup all parameters in config.py

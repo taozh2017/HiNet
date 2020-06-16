@@ -30,14 +30,12 @@ Usage
 
 If you use this code, please cite the following papers:
 
-[1] Tao Zhou, Huazhu Fu, Geng Chen, Jianbing Shen, Ling Shao. "Hi-Net: Hybrid-fusion Network for Multi-modal MR Image Synthesis". IEEE Transactions on Medical Imaging (IEEE TMI), 2020. ([PDF](https://ieeexplore.ieee.org/abstract/document/9004544))([arXiv](https://arxiv.org/pdf/2002.05000.pdf))
+[1] Tao Zhou, Huazhu Fu, Geng Chen, Jianbing Shen, Ling Shao. "Hi-Net: Hybrid-fusion Network for Multi-modal MR Image Synthesis". IEEE Transactions on Medical Imaging (IEEE TMI), 2020. ([Offical version](https://ieeexplore.ieee.org/abstract/document/9004544))([arXiv version](https://arxiv.org/pdf/2002.05000.pdf))
 
 
 
 ----------------
-** Datsets
-
-you can download multi-modal medical datastes from:
+Datsets: you can download multi-modal medical datastes from:
 
 [1] BraTs 2018: [[HERE]](https://www.med.upenn.edu/sbia/brats2018/data.html)
 

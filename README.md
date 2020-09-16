@@ -21,7 +21,7 @@ Usage
 
 5. Train
    
-   CUDA_VISIBLE_DEVICES=0,1 python main.py train --batch_size=16 --task_id=2 --gpu_id=[0,1]
+   CUDA_VISIBLE_DEVICES=0,1 python main.py train --batch_size=128 --task_id=2 --gpu_id=[0,1]
    
    
    (you can set your parameters when runing the code)

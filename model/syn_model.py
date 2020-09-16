@@ -231,10 +231,10 @@ class Multi_modal_generator(nn.Module):
         down_fu_1   = self.down_fu_1(down_1_0m,down_1_1m)                                                                                                         
         down_fu_1m  = self.pool_fu_1(down_fu_1)
         
-        down_fu_2   = self.down_fu_2(down_fu_1m,down_2_0m,down_2_1m)                                                                                                         
+        down_fu_2   = self.down_fu_2(down_2_0m,down_2_1m,down_fu_1m)                                                                                                         
         down_fu_2m  = self.pool_fu_2(down_fu_2)
         
-        down_fu_3   = self.down_fu_3(down_fu_2m,down_3_0m,down_3_1m) 
+        down_fu_3   = self.down_fu_3(down_3_0m,down_3_1m,down_fu_2m) 
         down_fu_4   = self.down_fu_4(down_fu_3)
         
         #latents     = self.down_fu_4(output_atten)

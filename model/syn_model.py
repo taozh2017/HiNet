@@ -217,7 +217,7 @@ class Multi_modal_generator(nn.Module):
         # -----  Third Level --------
         # Max-pool
         down_2_0m = self.pool_2_0(down_2_0)
-        down_2_1m = self.pool_2_0(down_2_1)
+        down_2_1m = self.pool_2_1(down_2_1)
                 
         down_3_0 = self.down_3_0(down_2_0m)
         down_3_1 = self.down_3_1(down_2_1m)

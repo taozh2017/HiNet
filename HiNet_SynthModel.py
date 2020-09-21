@@ -54,7 +54,7 @@ class LatentSynthModel():
             self.generator    = self.generator.cuda()
             self.discrimator  = self.discrimator.cuda()
                         
-        if torch.cuda.device_count() > 1:
+        if len(self.opt.gpu_id) > 1:
             self.generator    = nn.DataParallel(self.generator,device_ids=self.opt.gpu_id)
             self.discrimator  = nn.DataParallel(self.discrimator,device_ids=self.opt.gpu_id)  
         

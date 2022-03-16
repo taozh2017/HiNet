@@ -255,7 +255,7 @@ class Multi_modal_generator(nn.Module):
         deconv_4_1 = self.deconv_4_1(up(deconv_3_1))
         deconv_5_1 = self.deconv_5_1((deconv_4_1))
         deconv_6_1 = self.deconv_6_1(up(deconv_5_1))
-        output1    = self.out(deconv_6_1)
+        output1    = self.out1(deconv_6_1)
         
         # modality 2
         deconv_1_2 = self.deconv_1_2((down_3_1m))
@@ -264,7 +264,7 @@ class Multi_modal_generator(nn.Module):
         deconv_4_2 = self.deconv_4_2(up(deconv_3_2))
         deconv_5_2 = self.deconv_5_2((deconv_4_2))
         deconv_6_2 = self.deconv_6_2(up(deconv_5_2))
-        output2    = self.out(deconv_6_2)      
+        output2    = self.out2(deconv_6_2)      
                         
         return output,output1,output2
  
